@@ -1,0 +1,52 @@
+-------------------------------------------------------------------------------
+Test set: edu.yu.cs.com1320.project.stage1.AviTest
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 0, Errors: 6, Skipped: 0, Time elapsed: 0.019 s <<< FAILURE! - in edu.yu.cs.com1320.project.stage1.AviTest
+edu.yu.cs.com1320.project.stage1.AviTest.hashTableImplReplacementTest  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.Error: 
+Unresolved compilation problems: 
+	HashTable cannot be resolved to a type
+	HashTableImpl cannot be resolved to a type
+
+	at edu.yu.cs.com1320.project.stage1.AviTest.hashTableImplReplacementTest(AviTest.java:72)
+
+edu.yu.cs.com1320.project.stage1.AviTest.basicCollision  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.Error: 
+Unresolved compilation problems: 
+	HashTable cannot be resolved to a type
+	HashTableImpl cannot be resolved to a type
+
+	at edu.yu.cs.com1320.project.stage1.AviTest.basicCollision(AviTest.java:106)
+
+edu.yu.cs.com1320.project.stage1.AviTest.hashTableImplReplacementTest2  Time elapsed: 0.002 s  <<< ERROR!
+java.lang.Error: 
+Unresolved compilation problems: 
+	HashTable cannot be resolved to a type
+	HashTableImpl cannot be resolved to a type
+
+	at edu.yu.cs.com1320.project.stage1.AviTest.hashTableImplReplacementTest2(AviTest.java:85)
+
+edu.yu.cs.com1320.project.stage1.AviTest.hashTableImplSimplePutAndGet  Time elapsed: 0.002 s  <<< ERROR!
+java.lang.Error: 
+Unresolved compilation problems: 
+	HashTable cannot be resolved to a type
+	HashTableImpl cannot be resolved to a type
+
+	at edu.yu.cs.com1320.project.stage1.AviTest.hashTableImplSimplePutAndGet(AviTest.java:30)
+
+edu.yu.cs.com1320.project.stage1.AviTest.hashTableImplALotOfInfoTest  Time elapsed: 0 s  <<< ERROR!
+java.lang.Error: 
+Unresolved compilation problems: 
+	HashTable cannot be resolved to a type
+	HashTableImpl cannot be resolved to a type
+
+	at edu.yu.cs.com1320.project.stage1.AviTest.hashTableImplALotOfInfoTest(AviTest.java:45)
+
+edu.yu.cs.com1320.project.stage1.AviTest.hashTableImplCollisionTest  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.Error: 
+Unresolved compilation problems: 
+	HashTable cannot be resolved to a type
+	HashTableImpl cannot be resolved to a type
+
+	at edu.yu.cs.com1320.project.stage1.AviTest.hashTableImplCollisionTest(AviTest.java:57)
+

@@ -1,0 +1,53 @@
+-------------------------------------------------------------------------------
+Test set: edu.yu.cs.com1320.project.stage4.OfficialHashTableAPITest
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 0, Errors: 7, Skipped: 0, Time elapsed: 0.011 s <<< FAILURE! - in edu.yu.cs.com1320.project.stage4.OfficialHashTableAPITest
+edu.yu.cs.com1320.project.stage4.OfficialHashTableAPITest.interfaceCount  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.Error: 
+Unresolved compilation problem: 
+	HashTableImpl cannot be resolved to a type
+
+	at edu.yu.cs.com1320.project.stage4.OfficialHashTableAPITest.interfaceCount(OfficialHashTableAPITest.java:17)
+
+edu.yu.cs.com1320.project.stage4.OfficialHashTableAPITest.methodCount  Time elapsed: 0 s  <<< ERROR!
+java.lang.Error: 
+Unresolved compilation problem: 
+	HashTableImpl cannot be resolved to a type
+
+	at edu.yu.cs.com1320.project.stage4.OfficialHashTableAPITest.methodCount(OfficialHashTableAPITest.java:24)
+
+edu.yu.cs.com1320.project.stage4.OfficialHashTableAPITest.putExists  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.Error: 
+Unresolved compilation problem: 
+	HashTableImpl cannot be resolved to a type
+
+	at edu.yu.cs.com1320.project.stage4.OfficialHashTableAPITest.putExists(OfficialHashTableAPITest.java:63)
+
+edu.yu.cs.com1320.project.stage4.OfficialHashTableAPITest.subClassCount  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.Error: 
+Unresolved compilation problem: 
+	HashTableImpl cannot be resolved to a type
+
+	at edu.yu.cs.com1320.project.stage4.OfficialHashTableAPITest.subClassCount(OfficialHashTableAPITest.java:51)
+
+edu.yu.cs.com1320.project.stage4.OfficialHashTableAPITest.getExists  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.Error: 
+Unresolved compilation problem: 
+	HashTableImpl cannot be resolved to a type
+
+	at edu.yu.cs.com1320.project.stage4.OfficialHashTableAPITest.getExists(OfficialHashTableAPITest.java:70)
+
+edu.yu.cs.com1320.project.stage4.OfficialHashTableAPITest.fieldCount  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.Error: 
+Unresolved compilation problem: 
+	HashTableImpl cannot be resolved to a type
+
+	at edu.yu.cs.com1320.project.stage4.OfficialHashTableAPITest.fieldCount(OfficialHashTableAPITest.java:38)
+
+edu.yu.cs.com1320.project.stage4.OfficialHashTableAPITest.constructorExists  Time elapsed: 0 s  <<< ERROR!
+java.lang.Error: 
+Unresolved compilation problem: 
+	HashTableImpl cannot be resolved to a type
+
+	at edu.yu.cs.com1320.project.stage4.OfficialHashTableAPITest.constructorExists(OfficialHashTableAPITest.java:57)
+

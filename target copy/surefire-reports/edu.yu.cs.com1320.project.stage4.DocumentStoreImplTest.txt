@@ -1,0 +1,35 @@
+-------------------------------------------------------------------------------
+Test set: edu.yu.cs.com1320.project.stage4.DocumentStoreImplTest
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 0, Errors: 7, Skipped: 0, Time elapsed: 0.02 s <<< FAILURE! - in edu.yu.cs.com1320.project.stage4.DocumentStoreImplTest
+edu.yu.cs.com1320.project.stage4.DocumentStoreImplTest.threeTest  Time elapsed: 0.002 s  <<< ERROR!
+java.lang.AbstractMethodError: Receiver class edu.yu.cs.com1320.project.stage5.impl.DocumentPersistenceManager does not define or inherit an implementation of the resolved method abstract serialize(Ljava/lang/Object;Ljava/lang/Object;)V of interface edu.yu.cs.com1320.project.stage5.PersistenceManager.
+	at edu.yu.cs.com1320.project.stage4.DocumentStoreImplTest.threeTest(DocumentStoreImplTest.java:174)
+
+edu.yu.cs.com1320.project.stage4.DocumentStoreImplTest.sevenTest  Time elapsed: 0.002 s  <<< ERROR!
+java.lang.Error: 
+Unresolved compilation problem: 
+	The method updateMemoryForGetOrSearch(DocumentImpl) is undefined for the type DocumentStoreImpl
+
+	at edu.yu.cs.com1320.project.stage4.DocumentStoreImplTest.sevenTest(DocumentStoreImplTest.java:309)
+
+edu.yu.cs.com1320.project.stage4.DocumentStoreImplTest.oneTest  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.AbstractMethodError: Receiver class edu.yu.cs.com1320.project.stage5.impl.DocumentPersistenceManager does not define or inherit an implementation of the resolved method abstract serialize(Ljava/lang/Object;Ljava/lang/Object;)V of interface edu.yu.cs.com1320.project.stage5.PersistenceManager.
+	at edu.yu.cs.com1320.project.stage4.DocumentStoreImplTest.oneTest(DocumentStoreImplTest.java:116)
+
+edu.yu.cs.com1320.project.stage4.DocumentStoreImplTest.twoTest  Time elapsed: 0.002 s  <<< ERROR!
+java.lang.AbstractMethodError: Receiver class edu.yu.cs.com1320.project.stage5.impl.DocumentPersistenceManager does not define or inherit an implementation of the resolved method abstract serialize(Ljava/lang/Object;Ljava/lang/Object;)V of interface edu.yu.cs.com1320.project.stage5.PersistenceManager.
+	at edu.yu.cs.com1320.project.stage4.DocumentStoreImplTest.twoTest(DocumentStoreImplTest.java:147)
+
+edu.yu.cs.com1320.project.stage4.DocumentStoreImplTest.fiveTest  Time elapsed: 0.002 s  <<< ERROR!
+java.lang.AbstractMethodError: Receiver class edu.yu.cs.com1320.project.stage5.impl.DocumentPersistenceManager does not define or inherit an implementation of the resolved method abstract serialize(Ljava/lang/Object;Ljava/lang/Object;)V of interface edu.yu.cs.com1320.project.stage5.PersistenceManager.
+	at edu.yu.cs.com1320.project.stage4.DocumentStoreImplTest.fiveTest(DocumentStoreImplTest.java:241)
+
+edu.yu.cs.com1320.project.stage4.DocumentStoreImplTest.fourTest  Time elapsed: 0.002 s  <<< ERROR!
+java.lang.AbstractMethodError: Receiver class edu.yu.cs.com1320.project.stage5.impl.DocumentPersistenceManager does not define or inherit an implementation of the resolved method abstract serialize(Ljava/lang/Object;Ljava/lang/Object;)V of interface edu.yu.cs.com1320.project.stage5.PersistenceManager.
+	at edu.yu.cs.com1320.project.stage4.DocumentStoreImplTest.fourTest(DocumentStoreImplTest.java:207)
+
+edu.yu.cs.com1320.project.stage4.DocumentStoreImplTest.sixTest  Time elapsed: 0.002 s  <<< ERROR!
+java.lang.AbstractMethodError: Receiver class edu.yu.cs.com1320.project.stage5.impl.DocumentPersistenceManager does not define or inherit an implementation of the resolved method abstract serialize(Ljava/lang/Object;Ljava/lang/Object;)V of interface edu.yu.cs.com1320.project.stage5.PersistenceManager.
+	at edu.yu.cs.com1320.project.stage4.DocumentStoreImplTest.sixTest(DocumentStoreImplTest.java:277)
+

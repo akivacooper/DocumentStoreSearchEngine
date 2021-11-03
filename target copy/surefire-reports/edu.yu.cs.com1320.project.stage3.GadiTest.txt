@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: edu.yu.cs.com1320.project.stage3.GadiTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 0.008 s <<< FAILURE! - in edu.yu.cs.com1320.project.stage3.GadiTest
+edu.yu.cs.com1320.project.stage3.GadiTest.testCommandSetRemovedIfEmpty  Time elapsed: 0.002 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <3> but was: <0>
+	at edu.yu.cs.com1320.project.stage3.GadiTest.testCommandSetRemovedIfEmpty(GadiTest.java:166)
+
+edu.yu.cs.com1320.project.stage3.GadiTest.reallyComplicatedDocumentStoreUndoTest  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <3> but was: <0>
+	at edu.yu.cs.com1320.project.stage3.GadiTest.reallyComplicatedDocumentStoreUndoTest(GadiTest.java:121)
+
+edu.yu.cs.com1320.project.stage3.GadiTest.complicatedDocumentStoreTest  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <3> but was: <0>
+	at edu.yu.cs.com1320.project.stage3.GadiTest.complicatedDocumentStoreTest(GadiTest.java:89)
+

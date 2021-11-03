@@ -1,0 +1,39 @@
+-------------------------------------------------------------------------------
+Test set: edu.yu.cs.com1320.project.stage2.RadinskyDocStoreTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 1, Errors: 4, Skipped: 0, Time elapsed: 0.014 s <<< FAILURE! - in edu.yu.cs.com1320.project.stage2.RadinskyDocStoreTest
+edu.yu.cs.com1320.project.stage2.RadinskyDocStoreTest.testUndo  Time elapsed: 0.004 s  <<< ERROR!
+java.lang.Error: 
+Unresolved compilation problem: 
+	The method updateMemoryForGetOrSearch(DocumentImpl) is undefined for the type DocumentStoreImpl
+
+	at edu.yu.cs.com1320.project.stage2.RadinskyDocStoreTest.testUndo(RadinskyDocStoreTest.java:71)
+
+edu.yu.cs.com1320.project.stage2.RadinskyDocStoreTest.hasParameterlessPublicConstructorTestHashTable  Time elapsed: 0 s  <<< ERROR!
+java.lang.Error: 
+Unresolved compilation problem: 
+	HashTableImpl cannot be resolved to a type
+
+	at edu.yu.cs.com1320.project.stage2.RadinskyDocStoreTest.hasParameterlessPublicConstructorTestHashTable(RadinskyDocStoreTest.java:89)
+
+edu.yu.cs.com1320.project.stage2.RadinskyDocStoreTest.testUndoWithEmptyStack  Time elapsed: 0.002 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Unexpected exception type thrown ==> expected: <java.lang.IllegalStateException> but was: <java.lang.Error>
+	at edu.yu.cs.com1320.project.stage2.RadinskyDocStoreTest.testUndoWithEmptyStack(RadinskyDocStoreTest.java:137)
+Caused by: java.lang.Error: 
+Unresolved compilation problem: 
+	The method updateMemoryForGetOrSearch(DocumentImpl) is undefined for the type DocumentStoreImpl
+
+	at edu.yu.cs.com1320.project.stage2.RadinskyDocStoreTest.lambda$0(RadinskyDocStoreTest.java:138)
+	at edu.yu.cs.com1320.project.stage2.RadinskyDocStoreTest.testUndoWithEmptyStack(RadinskyDocStoreTest.java:137)
+
+edu.yu.cs.com1320.project.stage2.RadinskyDocStoreTest.testParameterLessUndoOnDoc  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.Error: 
+Unresolved compilation problem: 
+	The method updateMemoryForGetOrSearch(DocumentImpl) is undefined for the type DocumentStoreImpl
+
+	at edu.yu.cs.com1320.project.stage2.RadinskyDocStoreTest.testParameterLessUndoOnDoc(RadinskyDocStoreTest.java:115)
+
+edu.yu.cs.com1320.project.stage2.RadinskyDocStoreTest.testParameterUndoOnDoc  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.IllegalStateException: ACTION NOT FOUND
+	at edu.yu.cs.com1320.project.stage2.RadinskyDocStoreTest.testParameterUndoOnDoc(RadinskyDocStoreTest.java:131)
+

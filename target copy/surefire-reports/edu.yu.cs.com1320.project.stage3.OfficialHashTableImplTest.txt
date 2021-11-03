@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: edu.yu.cs.com1320.project.stage3.OfficialHashTableImplTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in edu.yu.cs.com1320.project.stage3.OfficialHashTableImplTest
+edu.yu.cs.com1320.project.stage3.OfficialHashTableImplTest  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.NoClassDefFoundError: LHashTable;
+Caused by: java.lang.ClassNotFoundException: HashTable
+

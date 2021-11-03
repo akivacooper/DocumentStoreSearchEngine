@@ -1,0 +1,62 @@
+-------------------------------------------------------------------------------
+Test set: edu.yu.cs.com1320.project.stage2.DocumentStoreStageTwoTests
+-------------------------------------------------------------------------------
+Tests run: 12, Failures: 0, Errors: 10, Skipped: 0, Time elapsed: 0.03 s <<< FAILURE! - in edu.yu.cs.com1320.project.stage2.DocumentStoreStageTwoTests
+edu.yu.cs.com1320.project.stage2.DocumentStoreStageTwoTests.testStackUriPutOverwrite  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.Error: 
+Unresolved compilation problem: 
+	The method updateMemoryForGetOrSearch(DocumentImpl) is undefined for the type DocumentStoreImpl
+
+	at edu.yu.cs.com1320.project.stage2.DocumentStoreStageTwoTests.testStackUriPutOverwrite(DocumentStoreStageTwoTests.java:78)
+
+edu.yu.cs.com1320.project.stage2.DocumentStoreStageTwoTests.testStackUndo  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.Error: 
+Unresolved compilation problem: 
+	The method updateMemoryForGetOrSearch(DocumentImpl) is undefined for the type DocumentStoreImpl
+
+	at edu.yu.cs.com1320.project.stage2.DocumentStoreStageTwoTests.testStackUndo(DocumentStoreStageTwoTests.java:31)
+
+edu.yu.cs.com1320.project.stage2.DocumentStoreStageTwoTests.testThrowsException  Time elapsed: 0.004 s  <<< ERROR!
+java.lang.Error: 
+Unresolved compilation problem: 
+	The method updateMemoryForGetOrSearch(DocumentImpl) is undefined for the type DocumentStoreImpl
+
+	at edu.yu.cs.com1320.project.stage2.DocumentStoreStageTwoTests.testThrowsException(DocumentStoreStageTwoTests.java:192)
+
+edu.yu.cs.com1320.project.stage2.DocumentStoreStageTwoTests.testStackUndoUri  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.IllegalStateException: ACTION NOT FOUND
+	at edu.yu.cs.com1320.project.stage2.DocumentStoreStageTwoTests.testStackUndoUri(DocumentStoreStageTwoTests.java:60)
+
+edu.yu.cs.com1320.project.stage2.DocumentStoreStageTwoTests.testPointlessPutEmptyUndo  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.Error: 
+Unresolved compilation problem: 
+	The method updateMemoryForGetOrSearch(DocumentImpl) is undefined for the type DocumentStoreImpl
+
+	at edu.yu.cs.com1320.project.stage2.DocumentStoreStageTwoTests.testPointlessPutEmptyUndo(DocumentStoreStageTwoTests.java:235)
+
+edu.yu.cs.com1320.project.stage2.DocumentStoreStageTwoTests.undoTest  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.Error: 
+Unresolved compilation problem: 
+	The method updateMemoryForGetOrSearch(DocumentImpl) is undefined for the type DocumentStoreImpl
+
+	at edu.yu.cs.com1320.project.stage2.DocumentStoreStageTwoTests.undoTest(DocumentStoreStageTwoTests.java:175)
+
+edu.yu.cs.com1320.project.stage2.DocumentStoreStageTwoTests.testStackUriDeleteOverwriteMultipleDocs  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.NullPointerException
+	at edu.yu.cs.com1320.project.stage2.DocumentStoreStageTwoTests.testStackUriDeleteOverwriteMultipleDocs(DocumentStoreStageTwoTests.java:147)
+
+edu.yu.cs.com1320.project.stage2.DocumentStoreStageTwoTests.testStackUriDeleteOverwrite  Time elapsed: 0.002 s  <<< ERROR!
+java.lang.NullPointerException
+	at edu.yu.cs.com1320.project.stage2.DocumentStoreStageTwoTests.testStackUriDeleteOverwrite(DocumentStoreStageTwoTests.java:97)
+
+edu.yu.cs.com1320.project.stage2.DocumentStoreStageTwoTests.testPointlessDeleteEmptyUndo  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.Error: 
+Unresolved compilation problem: 
+	The method updateMemoryForGetOrSearch(DocumentImpl) is undefined for the type DocumentStoreImpl
+
+	at edu.yu.cs.com1320.project.stage2.DocumentStoreStageTwoTests.testPointlessDeleteEmptyUndo(DocumentStoreStageTwoTests.java:219)
+
+edu.yu.cs.com1320.project.stage2.DocumentStoreStageTwoTests.testStackUriDeleteOverwriteNoParams  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.NullPointerException
+	at edu.yu.cs.com1320.project.stage2.DocumentStoreStageTwoTests.testStackUriDeleteOverwriteNoParams(DocumentStoreStageTwoTests.java:122)
+
