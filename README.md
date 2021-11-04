@@ -1,7 +1,11 @@
 
 # DocumentStoreSearchEngine
 
-**Preface**
+_Preface:_
+
+A program capable of storing and searching documents both in memory and on disk with GSON serialization
+
+Implements and intertwines a range of data structures—including a trie to implement search within documents, a BTree which takes document keys (of type URI) as parameters returning the associated value, and a heap to keep track of which documents are most recently accessed and which to serialize to disk—to successfully implement the search engine; data structures are mostly created from scratch
 
 **Section 1: An In-Memory Document Store (BTree)**
 ========================
